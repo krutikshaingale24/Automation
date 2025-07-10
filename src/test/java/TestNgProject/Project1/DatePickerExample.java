@@ -50,7 +50,8 @@ public class DatePickerExample {
     public void Test3() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
+           driver.manage().window().fullscreen();
         driver.get("https://jqueryui.com/datepicker/");
 
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class=\"demo-frame\"]")));
