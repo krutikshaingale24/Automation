@@ -47,7 +47,7 @@ public class DatePickerExample {
 
     }
     @Test
-    public void Test3() {
+    public void Test4() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
 //        driver.manage().window().maximize();
