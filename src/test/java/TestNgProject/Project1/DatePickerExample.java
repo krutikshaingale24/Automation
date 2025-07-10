@@ -46,24 +46,6 @@ public class DatePickerExample {
         }     driver.close();
 
     }
-//    @Test
-//    public void Test3() {
-//        System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
-//        WebDriver driver = new ChromeDriver();
-//        driver.manage().window().maximize();
-//        driver.get("https://jqueryui.com/datepicker/");
-//
-//        driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class=\"demo-frame\"]")));
-//        driver.findElement(By.id("datepicker")).click();
-//        //Select next month 15date
-//        driver.findElement(By.xpath("//a[@class=\"ui-datepicker-next ui-corner-all\"]")).click();
-//        List<WebElement> a = driver.findElements(By.xpath("//table[@class=\"ui-datepicker-calendar\"]//tr/td/a"));
-//        for (WebElement date : a) {
-//            if (date.getText().equals("15")) {
-//                date.click();
-//                break;
-//            }
-//        }
-//    }
+
 }
 
