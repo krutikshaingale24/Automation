@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <groups>-->
+<!--        <run>-->
+<!--            <include name="Smoke"/>-->
+<!--        </run>-->
+<!--    </groups>-->
+<!--    parallel="true" thread-count="4"-->
+    <parameter name="username" value="standard_user"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="browser" value="chrome"/>
+    <listeners>
+    <listener class-name="TestNgProject.TestNG.Transformer"/>
+    </listeners>
+    <test preserve-order="true"
+
+          name="C:/Users/acer/IdeaProjects/MavenProject/src/test/java">
+        <classes>
+     <class name="TestNgProject.TestNG.FailedTestCaseExample"/>
+<!--          <class name="TestNgProject.Project1.DatePickerExample"/>-->
+<!--           <class name="TestNgProject.Project1.DatePickerExample2"/>-->
+<!--            <class name="TestNgProject.TestNG.Login"></class>-->
+        </classes>
+    </test>
+</suite>
+
+
+<!--            <class name="Selenium.Project1.DatePickerExample"> </class>-->
+<!--            <class name="Selenium.Project1.DatePickerExample2"> </class>-->
+<!--            <class name="Selenium.TestNG.Login"> </class>-->
+<!--            <class name="Selenium.AssertionInTestNGExample.HardAssertExample"> </class>-->
+<!--            <class name="Selenium.AssertionInTestNGExample.SoftAssertExample"> </class>-->
+
+<!--            <class name="Testt.RefactoredShoppingExampale"> </class>-->
+<!--            <class name="Testt.Dropdown"> </class>-->
+
+<!--        </classes>-->
+<!--    </test>-->
+<!--</suite>-->
