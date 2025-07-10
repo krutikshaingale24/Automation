@@ -50,7 +50,7 @@ public class DatePickerExample {
     public void Test3() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+
         driver.get("https://jqueryui.com/datepicker/");
 
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@class=\"demo-frame\"]")));
@@ -66,7 +66,6 @@ public class DatePickerExample {
         }
         driver.close();
     }
-
 
 }
 
