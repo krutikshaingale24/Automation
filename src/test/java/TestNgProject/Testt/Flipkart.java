@@ -51,4 +51,22 @@ public class Flipkart {
 //    i.click();
 
     }
+    @Test
+    public void B(){
+        WebDriverManager.chromedriver().setup();
+//        ChromeOptions options = new ChromeOptions();
+//
+//        options.setPageLoadStrategy(PageLoadStrategy.EAGER);
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://www.flipkart.com/");
+        Actions a= new Actions(driver);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        WebElement E= driver.findElement(By.xpath("//span[text()='Home & Furniture']"));
+a.moveToElement(E).perform();
+        WebElement A= driver.findElement(By.xpath("//a[text()='Bedroom Furniture']"));
+        a.moveToElement(A).perform();
+        WebElement B= driver.findElement(By.xpath("//a[text()='TV Units']"));
+    a.moveToElement(B).click().perform();
+    }
 }

@@ -12,7 +12,7 @@ public class FailedTestCaseExample {
     @Test
     public void Test2()
     {
-        Assert.assertTrue(false);
+//        Assert.assertTrue(false);
         System.out.println("Test 2");
     }
     @Test

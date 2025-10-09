@@ -18,6 +18,7 @@
           name="C:/Users/acer/IdeaProjects/MavenProject/src/test/java">
         <classes>
      <class name="TestNgProject.TestNG.FailedTestCaseExample"/>
+
 <!--          <class name="TestNgProject.Project1.DatePickerExample"/>-->
 <!--           <class name="TestNgProject.Project1.DatePickerExample2"/>-->
 <!--            <class name="TestNgProject.TestNG.Login"></class>-->

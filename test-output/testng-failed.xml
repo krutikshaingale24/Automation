@@ -9,11 +9,12 @@
   </listeners>
   <test thread-count="5" name="C:/Users/acer/IdeaProjects/MavenProject/src/test/java(failed)">
     <classes>
-      <class name="TestNgProject.TestNG.FailedTestCaseExample">
-        <methods>
-          <include name="Test2"/>
-        </methods>
-      </class> <!-- TestNgProject.TestNG.FailedTestCaseExample -->
+      <class name="TestNgProject.TestNG.FailedTestCaseExample"/>
+<!--      <class name="TestNgProject.TestNG.FailedTestCaseExample">-->
+<!--        <methods>-->
+<!--          <include name="Test2"/>-->
+<!--        </methods>-->
+<!--      </class> &lt;!&ndash; TestNgProject.TestNG.FailedTestCaseExample &ndash;&gt;-->
     </classes>
   </test> <!-- C:/Users/acer/IdeaProjects/MavenProject/src/test/java(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

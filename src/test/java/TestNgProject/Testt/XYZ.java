@@ -4,8 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 
+import java.time.Duration;
 import java.util.List;
 
 public class XYZ {
@@ -45,6 +48,22 @@ public class XYZ {
                     break;
                 }
             }
+//
+//            WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(20));
+//            WebElement d=driver.findElement(By.xpath("//input[@class='hasDatepicker']"));
+//            wait.until(ExpectedConditions.visibilityOf(d));
+//            d.click();
+//            WebElement c= driver.findElement(By.xpath("//td[contains(@class, 'ui-datepicker-days-cell-over') and contains(@class, 'ui-datepicker-today')]"));
+//            List<WebElement> a=driver.findElements(By.xpath("//div[@id='ui-datepicker-div']//table//tr//td"));
+//
+//            for (WebElement e: a)
+//            {
+//                if (e.getText().equals(c.getText()))
+//                {
+//                    e.click();
+//                    break;
+//                }
+//            }
         }
     @Test
     public void Test3(){
